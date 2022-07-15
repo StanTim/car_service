@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-
+  root 'orders#index'
   resources :services
   resources :categories
   resources :orders
